@@ -11,8 +11,11 @@ header{
    color: MediumAquamarine;
    display: inline-block;
    align-content: center;
+   padding-left: 10px;
  }
- /*.logo img{ */
+ .logo{
+   display: flex;
+   flex-grow: 1;
 }
 .navigation{
    justify-content: flex-end;
@@ -55,6 +58,10 @@ header{
 .row-earth{
   display: flex;
   border: 1px solid black;
+}
+.row1n2{
+  display: flex;
+justify-content: space-between;
 }
 .row-3{
   border: 1px solid black;
