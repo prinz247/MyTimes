@@ -17,17 +17,15 @@ header{
    display: flex;
    flex-grow: 1;
 }
-.navigation{
-   justify-content: flex-end;
-   display: inline-block;
+.navigation a{
+   padding: 10px;
    color: black;
  }
  .container{
    display: flex;
    justify-content: space-around;
    border: 1px solid black;
-   align-items: flex-end;
-   margin-top: 30px;
+   padding-top: 20px;
  }
  .main-column-1{
    width: 630px;
@@ -47,21 +45,18 @@ header{
 .row-mother{
   border: 1px solid black;
   display: flex;
+  background-image: url("../images/img-story-main.png");
 }
 .orca{
   border:1px solid black;
 }
 .row-2{
   border: 1px solid black;
-
 }
 .row-earth{
   display: flex;
   border: 1px solid black;
-}
-.row1n2{
-  display: flex;
-justify-content: space-between;
+  background-image: url("../images/img-story-2.png");
 }
 .row-3{
   border: 1px solid black;
@@ -72,9 +67,8 @@ justify-content: space-between;
 .row-cameras{
   display: flex;
   border: 1px solid black;
+  background-image: url("../images/img-story-3.png");
 }
-
-
 
 .second-row-1{
   border: 1px solid black;
@@ -85,10 +79,30 @@ justify-content: space-between;
 .row-cats{
   display: flex;
   border: 1px solid black;
-  background-image: url("../images/img-story-1");
+  background-image: url("../images/img-story-1.png");
 }
-
-
 .bites{
   border: 1px solid black;
+}
+.row-earth p,  .row-cats p, .row-cameras p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-items: flex-start;
+}
+.row-mother p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  align-items: flex-start;
+}
+.row-1 #full-story, .orca #full-story, .burger #full-story, .second-row-1 #full-story, .second-row-2 #full-story, .bites p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main-column-1, .main-column-2, .main-column-3{
+
 }
